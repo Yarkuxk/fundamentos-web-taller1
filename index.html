@@ -105,12 +105,12 @@
 <table>
     <caption>Horario académico</caption>
     <thead>
-        
+        <tr>
             <th>ASIGNATURA</th>
             <th>DÍA</th>
             <th>HORA</th>
             <th>MODALIDAD</th>
-        
+        </tr>
     </thead>
     <tbody>
         <tr>
@@ -167,24 +167,21 @@
 <br>
 
 <form>
-
     <fieldset>
         <legend>Información académica</legend>
+        <label for="nombre completo">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" value="">
 
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" value="Yarkuxk">
-
-        <br><br>
 
         <label for="correo">Correo:</label>
-        <input type="email" id="correo" name="correo" value="yarkuxk@gmail.com">
+        <input type="email" id="correo" name="correo" value="">
 
-        <br><br>
+        <br>
 
         <label for="fecha">Fecha de nacimiento:</label>
-        <input type="date" id="fecha" name="fecha" value="2007-08-31">
+        <input type="date" id="fecha" name="fecha" value="">
 
-        <br><br>
+        <br>
 
         <label for="semestre">Semestre:</label>
         <select id="semestre" name="semestre">
@@ -192,28 +189,28 @@
             <option value="1">Primer semestre</option>
             <option value="2">Segundo semestre</option>
             <option value="3">Tercer semestre</option>
-            <option value="4" selected>Cuarto semestre</option>
+            <option value="4">Cuarto semestre</option>
             <option value="5">Quinto semestre</option>
             <option value="6">Sexto semestre</option>
             <option value="7">Séptimo semestre</option>
             <option value="8">Octavo semestre</option>
+            <option value="9">Noveno semestre</option>
+            <option value="10">Décimo semestre</option>
         </select>
 
-        <br><br>
 
         <label for="horas">Horas de estudio al día:</label>
-        <input type="number" id="horas" name="horas" min="1" max="12" value="3">
+        <input type="number" id="horas" name="horas" value="">
 
-        <br><br>
+        <br>
 
         <label for="satisfaccion">Nivel de satisfacción con la carrera:</label>
         <input type="range" id="satisfaccion" name="satisfaccion" min="1" max="10" value="8">
-        <span>8/10</span>
 
-        <br><br>
+        <br>
 
         <label>Modalidad preferida:</label>
-        <input type="radio" id="presencial" name="modalidad" value="presencial" checked>
+        <input type="radio" id="presencial" name="modalidad" value="">
         <label for="presencial">Presencial</label>
 
         <input type="radio" id="virtual" name="modalidad" value="virtual">
@@ -222,7 +219,7 @@
         <input type="radio" id="mixta" name="modalidad" value="mixta">
         <label for="mixta">Mixta</label>
 
-        <br><br>
+        <br>
 
         <label>Temas de interés:</label><br>
 
@@ -238,20 +235,20 @@
         <input type="checkbox" id="bases" name="intereses" value="bases">
         <label for="bases">Bases de Datos</label>
 
-        <br><br>
+        <br>
 
         <label for="programa">Programa académico:</label>
         <select id="programa" name="programa">
-            <option value="sistemas" selected>Ingeniería de Sistemas</option>
+            <option value="">Seleccione</option>
+            <option value="sistemas" >Ingeniería de Sistemas</option>
             <option value="software">Ingeniería de Software</option>
             <option value="informatica">Ingeniería Informática</option>
         </select>
 
-        <br><br>
+        <br>
 
         <label for="comentario">Comentario:</label><br>
-        <textarea id="comentario" name="comentario" rows="5" cols="40">Me resulta entretenido el taller.</textarea>
-
+        <textarea id="comentario" name="comentario" rows="5" cols="40"></textarea>
     </fieldset>
 
     <br>
@@ -261,88 +258,40 @@
 
 </form>
 
-<hr>
+<br><hr>
 
 <article>
-    <h2>Mi aprendizaje en Fundamentos Web</h2>
-
-    <p>
-        En este taller estoy aprendiendo a crear páginas web utilizando
-        diferentes elementos y etiquetas de HTML.
-    </p>
-
-    <p>
-        Actualmente estoy cursando cuarto semestre de Ingeniería de Sistemas.
-    </p>
-
     <details>
         <summary>¿Qué estoy aprendiendo?</summary>
-        <p>
-            Estoy aprendiendo la estructura básica de documentos HTML,
-            el uso de etiquetas semánticas, formularios, tablas y elementos
-            multimedia.
-        </p>
+        <p>Estoy aprendiendo la estructura básica de documentos HTML,</p>
+        <p>el uso de etiquetas semánticas, formularios, tablas y elementosmultimedia.</p>
     </details>
 
     <br>
 
-    <p>
-        Mi progreso en el aprendizaje de HTML:
-    </p>
-
+    <p>Mi progreso en el aprendizaje de HTML:</p>
     <progress value="80" max="100">80%</progress>
 
-    <p>
-        Nivel de satisfacción con el taller:
-    </p>
-
+    <p>Nivel de satisfacción con el taller:</p>
     <meter min="0" max="10" value="8">8 de 10</meter>
-
 </article>
 
 <aside>
-    <h3>Información adicional</h3>
-    <p>
-        Una recomendación para trabajar con HTML es guardar frecuentemente
-        los cambios utilizando <kbd>Ctrl</kbd> + <kbd>S</kbd>.
-    </p>
+    <p>Una recomendación para trabajar con HTML es guardar frecuentemente los cambios utilizando <kbd>Ctrl</kbd> + <kbd>S</kbd>.</p>
 </aside>
 
-<h3>Ejemplo de código HTML</h3>
+    <pre><code>&lt;h1&gt;Hola mundo&lt;/h1&gt;</code></pre>
+    <pre></code>&lt;p&gt;Esta es mi primera página web.&lt;/p&gt;</code></pre>
 
-<pre><code>&lt;h1&gt;Hola mundo&lt;/h1&gt;
-&lt;p&gt;Esta es mi primera página web.&lt;/p&gt;</code></pre>
+    <p>Tengo un evento el <time datetime="2026-18-06">18 de septiembre de 2026</time>.</p>
 
-<p>
-    La actividad fue realizada el
-    <time datetime="2026-09-06">6 de septiembre de 2026</time>.
-</p>
-
-<br>
-
-<address>
-    UNICAMACHO<br>
-    Ingeniería de Sistemas
-</address>
-
-
-
-<footer>
-
-    <p>
-        Taller realizado para la asignatura Fundamentos WEB.
-    </p>
-
-    <p>
-        Estudiante: Yarkuxk
-    </p>
+    <br>
 
     <address>
         UNICAMACHO<br>
         Ingeniería de Sistemas
     </address>
-
-</footer>
+    <br>
 
 
 
