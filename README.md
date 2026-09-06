@@ -11,8 +11,8 @@ Problema identificado:
 Uso incorrecto de "href" para imagenes.  
 
 Correccion realizada: 
-<img src="multimedia/perfil.jpg"
-     alt="Fotografía del estudiante">
+<!--<img src="multimedia/perfil.jpg"
+     alt="Fotografía del estudiante">-->
 
 Fuente consultada:
 W3Schools - https://www-w3schools-com.translate.goog/TagS/att_src.asp?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
@@ -24,9 +24,9 @@ Problema identificado:
 Uso incorrecto de "src" para "a"
 
 Correccion realizada:
-<a href="https://developer.mozilla.org/">
+<!--<a href="https://developer.mozilla.org/">
     Consultar MDN
-</a>
+</a>-->
 
 Fuente consultada:
 W3Schools - https://www.w3schools.com/tags/att_a_href.asp
@@ -38,9 +38,9 @@ Problema identificado:
 Uso incorrecto de "href"
 
 Correccion realizada:
-<video controls>
+<!--<video controls>
     <source src="multimedia/video.mp4" type="video/mp4">
-</video>
+</video>-->
 
 Fuente consultada:
 W3Schools - https://www.w3schools.com/tags/tag_source.asp
@@ -52,10 +52,10 @@ Problema identificado:
 "correo" no es un valor válido para "type"
 
 Correccion realizada:
-<form>
+<!--<form>
     <label for="correo">Correo:</label>
     <input type="email" id="correo" name="correo">
-</form>
+</form>-->
 
 Fuente consultada:
 W3Schools - https://www.w3schools.com/tags/att_input_type.asp
@@ -67,7 +67,7 @@ La afirmacion es:
 Falsa
 
 Justificacion:
-Sabemos que la etiqueta para insertar las imagenes es <img>, no <image> y tampoco se pone <img> para cerrar
+Sabemos que la etiqueta para insertar las imagenes es "img", no "image" y tampoco se pone "img" para cerrar
 
 Fuente consultada:
 W3Schools - https://www-w3schools-com.translate.goog/tags/tag_img.asp?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
