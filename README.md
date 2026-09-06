@@ -8,7 +8,7 @@ Fundamentos de Programacion Web
 ## Verificacion de codigo
 ### Caso A
 Problema identificado: 
-Uso incorrecto de <href> para imagenes.  
+Uso incorrecto de "href" para imagenes.  
 
 Correccion realizada: 
 <img src="multimedia/perfil.jpg"
@@ -21,7 +21,7 @@ W3Schools - https://www-w3schools-com.translate.goog/TagS/att_src.asp?_x_tr_sl=e
 
 ### Caso B
 Problema identificado:
-Uso incorrecto de <src> para <a>
+Uso incorrecto de "src" para "a"
 
 Correccion realizada:
 <a href="https://developer.mozilla.org/">
@@ -35,7 +35,7 @@ W3Schools - https://www.w3schools.com/tags/att_a_href.asp
 
 ### Caso C
 Problema identificado:
-Uso incorrecto de <href>
+Uso incorrecto de "href"
 
 Correccion realizada:
 <video controls>
@@ -49,7 +49,7 @@ W3Schools - https://www.w3schools.com/tags/tag_source.asp
 
 ### Caso D
 Problema identificado:
-<correo> no es un valor válido para <type>
+"correo" no es un valor válido para "type"
 
 Correccion realizada:
 <form>
